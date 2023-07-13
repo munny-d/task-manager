@@ -13,8 +13,10 @@ This project was created using the following:
 
 ### HOW TO RUN THE APPLICATION IN DEV
 
+\*\* if it's your first time building the application, please run "npm install" to install all the dependent packages in both the 'server' and 'client' folder
+
 1. In the 'server' folder, run "npm run dev"
-2. In the 'client folder', run "npm start"
+2. In the 'client folder', run "npm install" "npm start"
 
 \*\* ensure MySQL is running on the local machine otherwise server side will fail and return status code '500'
 
