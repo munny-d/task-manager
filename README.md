@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Task manager dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple task manager that allows you to create a tasks and edit the status of the task from either 'todo', 'in progress' or 'completed'.
+This purpose of this project is to learn the latest features of React v18 in 2023 and to implement TypeScript across all areas the application.
 
-## Available Scripts
+This project was created using the following:
 
-In the project directory, you can run:
+- React v18.2.0
+- TypeScript v4.9.5
+- Node v18.16.0
+- Express v4.18.2
+- MySQL
+
+### HOW TO RUN THE APPLICATION IN DEV
+
+1. In the 'server' folder, run "npm run dev"
+2. In the 'client folder', run "npm start"
+
+\*\* ensure MySQL is running on the local machine otherwise server side will fail and return status code '500'
+
+### CLIENT SIDE SCRIPTS
+
+In the client project directory ('client'), you can run:
 
 ### `npm start`
 
@@ -13,11 +29,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,8 +50,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### SERVER SIDE SCRIPTS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `npm run dev`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Builds the backend for the development environment
+
+### `npm run build`
+
+Compiles the TS logic to JS via tsc ('typescript config')
+
+### `npm run start`
+
+Builds the backend for the production environment
