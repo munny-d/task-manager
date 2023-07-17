@@ -1,7 +1,7 @@
 # Task manager dashboard
 
 This is a simple task manager that allows you to create a tasks and edit the status of the task from either 'todo', 'in progress' or 'completed'.
-This purpose of this project is to learn the latest features of React v18 in 2023 and to implement TypeScript across all areas the application.
+The purpose of this project was to learn the latest features of React v18 in 2023 and to implement TypeScript across the frontend + backend.
 
 This project was created using the following:
 
